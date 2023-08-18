@@ -9,12 +9,14 @@ import Particles from './components/Particles';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 function App() {
   return (
-    <div className="App">
+    <div className='dark:bg-content dark:text-bkg'>
+      <div className="App">
       <Particles/>
       <NavBar />
       <Banner/>
       <Contact/>
       {/*<Footer/>*/}
+    </div>
     </div>
   );
 }

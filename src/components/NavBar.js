@@ -1,6 +1,6 @@
 import {useState,useEffect} from 'react'//managing links on currently loaded
 import {Navbar,Container,Nav} from 'react-bootstrap'
-
+import DarkMode from '../components/DarkMode';
 //importing icons and logo from assets/img
 import logo from '../assets/img/logo.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg'
@@ -51,6 +51,7 @@ export const NavBar=()=>{
                         <button className="vvd" onClick={()=> console.log('connect')}>
                             <span>Let's Connect</span>
                         </button>
+                        <DarkMode/>
                     </span>
                 </Navbar.Collapse>
             </Container>

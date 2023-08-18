@@ -98,7 +98,7 @@ nav.navbar a.navbar-brand {
   position: left;
   width: 10%;
   font-family: 'bubblegums', 'Helvetica Neue';
-  color: rgb(219, 192, 255);
+  color: #c58aec;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -246,7 +246,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /*font-family: 'bubblegums', 'Helvetica Neue' !important;*/
   font-weight: 700;
   letter-spacing: 0.8px;
-  padding: 8px 10px;
+  padding: 5px;
   /*background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);*/
   font-size: 20px;
@@ -254,8 +254,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-family: 'bubblegums', 'Helvetica Neue' !important;
+  font-size: 40px;
   font-weight: 700;
+  color: #c58aec;
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
@@ -382,3 +384,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+/*dark mode*/
