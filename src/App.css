@@ -90,7 +90,7 @@ nav.navbar.scrolled {
 }
 nav.navbar a.navbar-brand {
   position: left;
-  width: 9%;
+  width: 10%;
   font-family: 'bubblegums', 'Helvetica Neue';
   color: pink;
 }
@@ -99,6 +99,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
+  margin-left: 18px;
   font-size: 18px;
   opacity: 0.75;
 }
@@ -151,7 +152,7 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 18px 34px;
+  padding: 5px 34px;
   font-size: 18px;
   margin-left: 18px;
 	position: relative;

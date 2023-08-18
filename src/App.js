@@ -2,7 +2,7 @@ import logo from './assets/img/logo.svg';
 import './App.css';
 import { NavBar } from './components/NavBar';
 import { Contact } from './components/Contact';
-import Particles from './components/particles';
+import Particles from './components/Particles';
 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 function App() {
