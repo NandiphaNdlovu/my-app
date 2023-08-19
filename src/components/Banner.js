@@ -59,7 +59,6 @@ export const Banner = () => {
                 <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Web Developer"]'><span className="wrap">{text}</span></span></h1>
                   <p> I have a passion for anything involving Computer Science. I've been able to hone my skills in Software Engineering and Project Management, and I'm always looking for new ways to challenge myself and keep growing.
                   When I'm not working, you can usually find me outside exploring my environment or inside behind the monitor playing games with friends. I believe in the importance of maintaining a healthy work-life balance, and I always make sure to take time for the things that matter most to me.
-                  Overall, I'm a positive, can-do kind of person who loves taking on new challenges and pushing myself to be the best I can be. Whether I'm working on a project for a client or just trying to improve myself in some way, I always give it my all and aim for excellence.
                   </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
