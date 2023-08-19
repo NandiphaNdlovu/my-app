@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-app.git/static/css/main.f5e25247.css",
+    "main.js": "/my-app.git/static/js/main.2cb6398e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-app.git/static/js/787.28cb0dcd.chunk.js",
+    "static/media/banner-bg.png": "/my-app.git/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/my-app.git/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/CentraNo2-Bold.ttf": "/my-app.git/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/my-app.git/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/my-app.git/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/my-app.git/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/06384_BUBBLEGU.ttf": "/my-app.git/static/media/06384_BUBBLEGU.456289ed311e4a6f2e48.ttf",
+    "static/media/logo.svg": "/my-app.git/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
+    "index.html": "/my-app.git/index.html",
+    "static/media/nav-icon2.svg": "/my-app.git/static/media/nav-icon2.8d5480b0e749448f666b29e89080408d.svg",
+    "static/media/nav-icon1.svg": "/my-app.git/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon3.svg": "/my-app.git/static/media/nav-icon3.c579def1fc1ab625b8afb54db1d0ab03.svg",
+    "main.f5e25247.css.map": "/my-app.git/static/css/main.f5e25247.css.map",
+    "main.2cb6398e.js.map": "/my-app.git/static/js/main.2cb6398e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-app.git/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5e25247.css",
+    "static/js/main.2cb6398e.js"
+  ]
+}
