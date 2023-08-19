@@ -1,6 +1,7 @@
 import {useState,useEffect} from 'react'//managing links on currently loaded
 import {Navbar,Container,Nav} from 'react-bootstrap'
 import DarkMode from '../components/DarkMode';
+import Banner from '../components/Banner';
 //importing icons and logo from assets/img
 import logo from '../assets/img/logo.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg'
@@ -30,8 +31,7 @@ export const NavBar=()=>{
         <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
             <Container>
                 <Navbar.Brand href="#home" className='logo'>
-                <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Portfolio</Nav.Link>
-                    
+                <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Portfolio</Nav.Link>   
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
@@ -44,15 +44,18 @@ export const NavBar=()=>{
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={navIcon1} alt=""/></a>
-                            <a href="#"><img src={navIcon2} alt=""/></a>
-                            <a href="#"><img src={navIcon3} alt=""/></a>
+                            <a href="https://www.linkedin.com/in/nandipha-bianca-ndlovu-954310265?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbeD%2BlXS1QZ%2B5q2LzzOKQzw%3D%3D"><img src={navIcon1} alt=""/></a>
+                            <a href="https://github.com/NandiphaNdlovu"><img src={navIcon2} alt=""/></a>
+                            <a href="https://www.fiverr.com/s/j03kl7"><img src={navIcon3} alt=""/></a>
                         </div>
                         <button className="vvd" onClick={()=> console.log('connect')}>
                             <span>Let's Connect</span>
                         </button>
-                        <DarkMode/>
+                        <div className='themeSwitch'>
+                            <DarkMode/>
+                        </div>
                     </span>
+                    
                 </Navbar.Collapse>
             </Container>
         </Navbar>
